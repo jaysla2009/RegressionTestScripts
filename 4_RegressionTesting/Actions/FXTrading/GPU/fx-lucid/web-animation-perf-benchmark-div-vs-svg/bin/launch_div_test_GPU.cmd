@@ -1,0 +1,2 @@
+"c:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --start-maximized --show-fps-counter --enable-gpu-rasterization --gpu-rasterization-msaa-sample-count:16 http://srv8583980050.firmwide.corp.gs.com:8085/GPU/fx-lucid/web-animation-perf-benchmark-div-vs-svg/div/div.html
+exit 0

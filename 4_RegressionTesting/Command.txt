@@ -1,0 +1,2 @@
+./NDSPerfTest.ps1
+./NDSPerfTest.ps1 -PerfTestConfigName "./NDSPerfTestConfig.Media.xml"

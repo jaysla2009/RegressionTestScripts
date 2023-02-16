@@ -1,0 +1,1891 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProviderSerializeContainer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <HdxMonitorData>
+    <Version>3.3.5142.35222</Version>
+    <Settings_Providers>
+      <System_Information>
+        <Name>System Information</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>True</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </System_Information>
+      <VDA>
+        <Name>VDA</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>True</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </VDA>
+      <Sessions>
+        <Name>Sessions</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>True</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Sessions>
+      <Client>
+        <Name>Client</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Client>
+      <Network>
+        <Name>Network</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Network>
+      <Branch_Repeater>
+        <Name>Branch Repeater</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Branch_Repeater>
+      <Adobe_Flash>
+        <Name>Adobe® Flash®</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Adobe_Flash>
+      <Audio>
+        <Name>Audio</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Audio>
+      <Graphics_-_Direct_3D>
+        <Name>Graphics - Direct 3D</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Graphics_-_Direct_3D>
+      <Graphics_-_Thinwire>
+        <Name>Graphics - Thinwire</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Graphics_-_Thinwire>
+      <Graphics_-_Thinwire_Advanced>
+        <Name>Graphics - Thinwire Advanced</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Graphics_-_Thinwire_Advanced>
+      <Printing>
+        <Name>Printing</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Printing>
+      <Scanner>
+        <Name>Scanner</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Scanner>
+      <Smart_Cards>
+        <Name>Smart Cards</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Smart_Cards>
+      <USB_Devices>
+        <Name>USB Devices</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>10</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </USB_Devices>
+      <Mapped_Client_Drives>
+        <Name>Mapped Client Drives</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Mapped_Client_Drives>
+      <Windows_Media>
+        <Name>Windows Media</Name>
+        <UserEnabled>True</UserEnabled>
+        <Loaded>True</Loaded>
+        <IsRequired>False</IsRequired>
+        <Supported>True</Supported>
+        <CollectDataInterval>5</CollectDataInterval>
+        <CollectDataIntervalMaxLimit>20</CollectDataIntervalMaxLimit>
+        <CollectDataIntervalMinLimit>1</CollectDataIntervalMinLimit>
+      </Windows_Media>
+    </Settings_Providers>
+    <Settings_Counters>
+      <Performance_Counter_Update>1</Performance_Counter_Update>
+      <MaxSessionsForPerformanceCounters>50</MaxSessionsForPerformanceCounters>
+    </Settings_Counters>
+    <Settings_Others>
+      <AutoConnect>False</AutoConnect>
+    </Settings_Others>
+  </HdxMonitorData>
+  <MachineName>DCNDS0005337</MachineName>
+  <IsLocal>true</IsLocal>
+  <CurrentSessionID>1</CurrentSessionID>
+  <CurrentSessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</CurrentSessionKey>
+  <CurrentProductType>xd</CurrentProductType>
+  <Providers>
+    <SystemInfoDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>System Information</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:06.8775364+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <SystemInfo>
+          <ClassName>Win32_ComputerSystem</ClassName>
+          <WMI>
+            <AdminPasswordStatus>1</AdminPasswordStatus>
+            <AutomaticManagedPagefile>False</AutomaticManagedPagefile>
+            <AutomaticResetBootOption>True</AutomaticResetBootOption>
+            <AutomaticResetCapability>True</AutomaticResetCapability>
+            <BootOptionOnLimit>3</BootOptionOnLimit>
+            <BootOptionOnWatchDog>3</BootOptionOnWatchDog>
+            <BootROMSupported>True</BootROMSupported>
+            <BootupState>Normal boot</BootupState>
+            <Caption>DCNDS0005337</Caption>
+            <ChassisBootupState>3</ChassisBootupState>
+            <CreationClassName>Win32_ComputerSystem</CreationClassName>
+            <CurrentTimeZone>480</CurrentTimeZone>
+            <DaylightInEffect />
+            <Description>AT/AT COMPATIBLE</Description>
+            <DNSHostName>dcnds0005337</DNSHostName>
+            <Domain>firmwide.corp.gs.com</Domain>
+            <DomainRole>1</DomainRole>
+            <EnableDaylightSavingsTime>True</EnableDaylightSavingsTime>
+            <FrontPanelResetStatus>3</FrontPanelResetStatus>
+            <InfraredSupported>False</InfraredSupported>
+            <InitialLoadInfo />
+            <InstallDate />
+            <KeyboardPasswordStatus>3</KeyboardPasswordStatus>
+            <LastLoadInfo />
+            <Manufacturer>VMware, Inc.</Manufacturer>
+            <Model>VMware Virtual Platform</Model>
+            <Name>DCNDS0005337</Name>
+            <NameFormat />
+            <NetworkServerModeEnabled>True</NetworkServerModeEnabled>
+            <NumberOfLogicalProcessors>2</NumberOfLogicalProcessors>
+            <NumberOfProcessors>2</NumberOfProcessors>
+            <OEMLogoBitmap />
+            <OEMStringArray>[MS_VM_CERT/SHA1/27d66596a61c48dd3dc7216fd715126e33f59ae7];Welcome to the Virtual Machine</OEMStringArray>
+            <PartOfDomain>True</PartOfDomain>
+            <PauseAfterReset>3932100000</PauseAfterReset>
+            <PCSystemType>0</PCSystemType>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <PowerOnPasswordStatus>0</PowerOnPasswordStatus>
+            <PowerState>0</PowerState>
+            <PowerSupplyState>3</PowerSupplyState>
+            <PrimaryOwnerContact />
+            <PrimaryOwnerName>Authorized User</PrimaryOwnerName>
+            <ResetCapability>1</ResetCapability>
+            <ResetCount>-1</ResetCount>
+            <ResetLimit>-1</ResetLimit>
+            <Roles>LM_Workstation;LM_Server;SQLServer;NT;Potential_Browser</Roles>
+            <Status>OK</Status>
+            <SupportContactDescription />
+            <SystemStartupDelay />
+            <SystemStartupOptions />
+            <SystemStartupSetting />
+            <SystemType>x64-based PC</SystemType>
+            <ThermalState>3</ThermalState>
+            <TotalPhysicalMemory>12884434944</TotalPhysicalMemory>
+            <UserName>FIRMWIDE\yuaaron</UserName>
+            <WakeUpType>6</WakeUpType>
+            <Workgroup />
+          </WMI>
+        </SystemInfo>
+        <SystemInfo>
+          <ClassName>Win32_VideoController</ClassName>
+          <WMI>
+            <AcceleratorCapabilities />
+            <AdapterCompatibility>Citrix Systems Inc.</AdapterCompatibility>
+            <AdapterDACType>Virtual RAMDAC</AdapterDACType>
+            <AdapterRAM>67108864</AdapterRAM>
+            <Availability>3</Availability>
+            <CapabilityDescriptions />
+            <Caption>Citrix Display Driver (Citrix Systems - WDDM)</Caption>
+            <ColorTableEntries />
+            <ConfigManagerErrorCode>0</ConfigManagerErrorCode>
+            <ConfigManagerUserConfig>False</ConfigManagerUserConfig>
+            <CreationClassName>Win32_VideoController</CreationClassName>
+            <CurrentBitsPerPixel>32</CurrentBitsPerPixel>
+            <CurrentHorizontalResolution>1280</CurrentHorizontalResolution>
+            <CurrentNumberOfColors>4294967296</CurrentNumberOfColors>
+            <CurrentNumberOfColumns>0</CurrentNumberOfColumns>
+            <CurrentNumberOfRows>0</CurrentNumberOfRows>
+            <CurrentRefreshRate>30</CurrentRefreshRate>
+            <CurrentScanMode>4</CurrentScanMode>
+            <CurrentVerticalResolution>800</CurrentVerticalResolution>
+            <Description>Citrix Display Driver (Citrix Systems - WDDM)</Description>
+            <DeviceID>VideoController1</DeviceID>
+            <DeviceSpecificPens />
+            <DitherType>0</DitherType>
+            <DriverDate>20150611000000.000000-000</DriverDate>
+            <DriverVersion>8.14.1.1</DriverVersion>
+            <ErrorCleared />
+            <ErrorDescription />
+            <ICMIntent />
+            <ICMMethod />
+            <InfFilename>oem59.inf</InfFilename>
+            <InfSection>vd3d_vd3d</InfSection>
+            <InstallDate />
+            <InstalledDisplayDrivers>vd3d.dll,vd3d32</InstalledDisplayDrivers>
+            <LastErrorCode />
+            <MaxMemorySupported />
+            <MaxNumberControlled />
+            <MaxRefreshRate>30</MaxRefreshRate>
+            <MinRefreshRate>30</MinRefreshRate>
+            <Monochrome>False</Monochrome>
+            <Name>Citrix Display Driver (Citrix Systems - WDDM)</Name>
+            <NumberOfColorPlanes />
+            <NumberOfVideoPages />
+            <PNPDeviceID>PCI\VEN_5853&amp;DEV_1001&amp;SUBSYS_00000001&amp;REV_00\1&amp;79F5D87&amp;1&amp;01</PNPDeviceID>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <ProtocolSupported />
+            <ReservedSystemPaletteEntries />
+            <SpecificationVersion />
+            <Status>OK</Status>
+            <StatusInfo />
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName>DCNDS0005337</SystemName>
+            <SystemPaletteEntries />
+            <TimeOfLastReset />
+            <VideoArchitecture>5</VideoArchitecture>
+            <VideoMemoryType>2</VideoMemoryType>
+            <VideoMode />
+            <VideoModeDescription>1280 x 800 x 4294967296 colors</VideoModeDescription>
+            <VideoProcessor>Citrix Virtual Display Adapter Chip</VideoProcessor>
+          </WMI>
+        </SystemInfo>
+        <SystemInfo>
+          <ClassName>Win32_VideoController</ClassName>
+          <WMI>
+            <AcceleratorCapabilities />
+            <AdapterCompatibility>Citrix Systems Inc.</AdapterCompatibility>
+            <AdapterDACType />
+            <AdapterRAM />
+            <Availability>8</Availability>
+            <CapabilityDescriptions />
+            <Caption>Citrix Display Mirror Driver</Caption>
+            <ColorTableEntries />
+            <ConfigManagerErrorCode>0</ConfigManagerErrorCode>
+            <ConfigManagerUserConfig>False</ConfigManagerUserConfig>
+            <CreationClassName>Win32_VideoController</CreationClassName>
+            <CurrentBitsPerPixel />
+            <CurrentHorizontalResolution />
+            <CurrentNumberOfColors />
+            <CurrentNumberOfColumns />
+            <CurrentNumberOfRows />
+            <CurrentRefreshRate />
+            <CurrentScanMode />
+            <CurrentVerticalResolution />
+            <Description>Citrix Display Mirror Driver</Description>
+            <DeviceID>VideoController2</DeviceID>
+            <DeviceSpecificPens />
+            <DitherType />
+            <DriverDate>20120616000000.000000-000</DriverDate>
+            <DriverVersion>6.3.0.44</DriverVersion>
+            <ErrorCleared />
+            <ErrorDescription />
+            <ICMIntent />
+            <ICMMethod />
+            <InfFilename>oem17.inf</InfFilename>
+            <InfSection>mirror.NT.6.0</InfSection>
+            <InstallDate />
+            <InstalledDisplayDrivers />
+            <LastErrorCode />
+            <MaxMemorySupported />
+            <MaxNumberControlled />
+            <MaxRefreshRate />
+            <MinRefreshRate />
+            <Monochrome>False</Monochrome>
+            <Name>Citrix Display Mirror Driver</Name>
+            <NumberOfColorPlanes />
+            <NumberOfVideoPages />
+            <PNPDeviceID>ROOT\DISPLAY\0000</PNPDeviceID>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <ProtocolSupported />
+            <ReservedSystemPaletteEntries />
+            <SpecificationVersion />
+            <Status>OK</Status>
+            <StatusInfo />
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName>DCNDS0005337</SystemName>
+            <SystemPaletteEntries />
+            <TimeOfLastReset />
+            <VideoArchitecture>5</VideoArchitecture>
+            <VideoMemoryType>2</VideoMemoryType>
+            <VideoMode />
+            <VideoModeDescription />
+            <VideoProcessor />
+          </WMI>
+        </SystemInfo>
+        <SystemInfo>
+          <ClassName>Win32_VideoController</ClassName>
+          <WMI>
+            <AcceleratorCapabilities />
+            <AdapterCompatibility>(Standard display types)</AdapterCompatibility>
+            <AdapterDACType />
+            <AdapterRAM />
+            <Availability>8</Availability>
+            <CapabilityDescriptions />
+            <Caption>Standard VGA Graphics Adapter</Caption>
+            <ColorTableEntries />
+            <ConfigManagerErrorCode>43</ConfigManagerErrorCode>
+            <ConfigManagerUserConfig>False</ConfigManagerUserConfig>
+            <CreationClassName>Win32_VideoController</CreationClassName>
+            <CurrentBitsPerPixel />
+            <CurrentHorizontalResolution />
+            <CurrentNumberOfColors />
+            <CurrentNumberOfColumns />
+            <CurrentNumberOfRows />
+            <CurrentRefreshRate />
+            <CurrentScanMode />
+            <CurrentVerticalResolution />
+            <Description>Standard VGA Graphics Adapter</Description>
+            <DeviceID>VideoController3</DeviceID>
+            <DeviceSpecificPens />
+            <DitherType />
+            <DriverDate>20060621000000.000000-000</DriverDate>
+            <DriverVersion>6.1.7600.16385</DriverVersion>
+            <ErrorCleared />
+            <ErrorDescription />
+            <ICMIntent />
+            <ICMMethod />
+            <InfFilename>display.inf</InfFilename>
+            <InfSection>vga</InfSection>
+            <InstallDate />
+            <InstalledDisplayDrivers>vga.dll,framebuf.dll,vga256,vga64k</InstalledDisplayDrivers>
+            <LastErrorCode />
+            <MaxMemorySupported />
+            <MaxNumberControlled />
+            <MaxRefreshRate />
+            <MinRefreshRate />
+            <Monochrome>False</Monochrome>
+            <Name>Standard VGA Graphics Adapter</Name>
+            <NumberOfColorPlanes />
+            <NumberOfVideoPages />
+            <PNPDeviceID>PCI\VEN_15AD&amp;DEV_0405&amp;SUBSYS_040515AD&amp;REV_00\3&amp;37C8FF5D&amp;0&amp;78</PNPDeviceID>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <ProtocolSupported />
+            <ReservedSystemPaletteEntries />
+            <SpecificationVersion />
+            <Status>Error</Status>
+            <StatusInfo />
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName>DCNDS0005337</SystemName>
+            <SystemPaletteEntries />
+            <TimeOfLastReset />
+            <VideoArchitecture>5</VideoArchitecture>
+            <VideoMemoryType>2</VideoMemoryType>
+            <VideoMode />
+            <VideoModeDescription />
+            <VideoProcessor />
+          </WMI>
+        </SystemInfo>
+        <SystemInfo>
+          <ClassName>Win32_VideoController</ClassName>
+          <WMI>
+            <AcceleratorCapabilities />
+            <AdapterCompatibility>Citrix Systems Inc.</AdapterCompatibility>
+            <AdapterDACType />
+            <AdapterRAM />
+            <Availability>8</Availability>
+            <CapabilityDescriptions />
+            <Caption>Citrix Systems Inc. Display Mirror Driver</Caption>
+            <ColorTableEntries />
+            <ConfigManagerErrorCode>0</ConfigManagerErrorCode>
+            <ConfigManagerUserConfig>False</ConfigManagerUserConfig>
+            <CreationClassName>Win32_VideoController</CreationClassName>
+            <CurrentBitsPerPixel />
+            <CurrentHorizontalResolution />
+            <CurrentNumberOfColors />
+            <CurrentNumberOfColumns />
+            <CurrentNumberOfRows />
+            <CurrentRefreshRate />
+            <CurrentScanMode />
+            <CurrentVerticalResolution />
+            <Description>Citrix Systems Inc. Display Mirror Driver</Description>
+            <DeviceID>VideoController4</DeviceID>
+            <DeviceSpecificPens />
+            <DitherType />
+            <DriverDate>20160116000000.000000-000</DriverDate>
+            <DriverVersion>7.8.0.8014</DriverVersion>
+            <ErrorCleared />
+            <ErrorDescription />
+            <ICMIntent />
+            <ICMMethod />
+            <InfFilename>oem56.inf</InfFilename>
+            <InfSection>ThinwireMirror.NT.6.0</InfSection>
+            <InstallDate />
+            <InstalledDisplayDrivers />
+            <LastErrorCode />
+            <MaxMemorySupported />
+            <MaxNumberControlled />
+            <MaxRefreshRate />
+            <MinRefreshRate />
+            <Monochrome>False</Monochrome>
+            <Name>Citrix Systems Inc. Display Mirror Driver</Name>
+            <NumberOfColorPlanes />
+            <NumberOfVideoPages />
+            <PNPDeviceID>ROOT\DISPLAY\0001</PNPDeviceID>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <ProtocolSupported />
+            <ReservedSystemPaletteEntries />
+            <SpecificationVersion />
+            <Status>OK</Status>
+            <StatusInfo />
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName>DCNDS0005337</SystemName>
+            <SystemPaletteEntries />
+            <TimeOfLastReset />
+            <VideoArchitecture>5</VideoArchitecture>
+            <VideoMemoryType>2</VideoMemoryType>
+            <VideoMode />
+            <VideoModeDescription />
+            <VideoProcessor />
+          </WMI>
+        </SystemInfo>
+        <SystemInfo>
+          <ClassName>Win32_OperatingSystem</ClassName>
+          <WMI>
+            <BootDevice>\Device\HarddiskVolume1</BootDevice>
+            <BuildNumber>7601</BuildNumber>
+            <BuildType>Multiprocessor Free</BuildType>
+            <Caption>Microsoft Windows 7 Enterprise </Caption>
+            <CodeSet>1252</CodeSet>
+            <CountryCode>1</CountryCode>
+            <CreationClassName>Win32_OperatingSystem</CreationClassName>
+            <CSCreationClassName>Win32_ComputerSystem</CSCreationClassName>
+            <CSDVersion>Service Pack 1</CSDVersion>
+            <CSName>DCNDS0005337</CSName>
+            <CurrentTimeZone>480</CurrentTimeZone>
+            <DataExecutionPrevention_32BitApplications>True</DataExecutionPrevention_32BitApplications>
+            <DataExecutionPrevention_Available>True</DataExecutionPrevention_Available>
+            <DataExecutionPrevention_Drivers>True</DataExecutionPrevention_Drivers>
+            <DataExecutionPrevention_SupportPolicy>2</DataExecutionPrevention_SupportPolicy>
+            <Debug>False</Debug>
+            <Description />
+            <Distributed>False</Distributed>
+            <EncryptionLevel>256</EncryptionLevel>
+            <ForegroundApplicationBoost>2</ForegroundApplicationBoost>
+            <FreePhysicalMemory>5918936</FreePhysicalMemory>
+            <FreeSpaceInPagingFiles>12805108</FreeSpaceInPagingFiles>
+            <FreeVirtualMemory>18154980</FreeVirtualMemory>
+            <InstallDate>20150501054853.000000+480</InstallDate>
+            <LargeSystemCache />
+            <LastBootUpTime>20160331021018.863063+480</LastBootUpTime>
+            <LocalDateTime>20160331222706.720000+480</LocalDateTime>
+            <Locale>0409</Locale>
+            <Manufacturer>Microsoft Corporation</Manufacturer>
+            <MaxNumberOfProcesses>4294967295</MaxNumberOfProcesses>
+            <MaxProcessMemorySize>8589934464</MaxProcessMemorySize>
+            <MUILanguages>en-US</MUILanguages>
+            <Name>Microsoft Windows 7 Enterprise |C:\Windows|\Device\Harddisk0\Partition1</Name>
+            <NumberOfLicensedUsers />
+            <NumberOfProcesses>162</NumberOfProcesses>
+            <NumberOfUsers>4</NumberOfUsers>
+            <OperatingSystemSKU>4</OperatingSystemSKU>
+            <Organization>Goldman Sachs</Organization>
+            <OSArchitecture>64-bit</OSArchitecture>
+            <OSLanguage>1033</OSLanguage>
+            <OSProductSuite>256</OSProductSuite>
+            <OSType>18</OSType>
+            <OtherTypeDescription />
+            <PAEEnabled />
+            <PlusProductID />
+            <PlusVersionNumber />
+            <Primary>True</Primary>
+            <ProductType>1</ProductType>
+            <RegisteredUser>Authorized User</RegisteredUser>
+            <SerialNumber>00392-918-5000002-85634</SerialNumber>
+            <ServicePackMajorVersion>1</ServicePackMajorVersion>
+            <ServicePackMinorVersion>0</ServicePackMinorVersion>
+            <SizeStoredInPagingFiles>12890112</SizeStoredInPagingFiles>
+            <Status>OK</Status>
+            <SuiteMask>272</SuiteMask>
+            <SystemDevice>\Device\HarddiskVolume1</SystemDevice>
+            <SystemDirectory>C:\Windows\system32</SystemDirectory>
+            <SystemDrive>C:</SystemDrive>
+            <TotalSwapSpaceSize />
+            <TotalVirtualMemorySize>25470712</TotalVirtualMemorySize>
+            <TotalVisibleMemorySize>12582456</TotalVisibleMemorySize>
+            <Version>6.1.7601</Version>
+            <WindowsDirectory>C:\Windows</WindowsDirectory>
+          </WMI>
+        </SystemInfo>
+      </Records>
+    </SystemInfoDataProvider>
+    <VDADataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>VDA</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:20.5448030+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <VDAInfo>
+          <ClassName>Citrix_XenDesktop</ClassName>
+          <WMI>
+            <LastError />
+            <Registry_DesktopGroupId />
+            <Registry_DesktopGroupName />
+            <Registry_DesktopId />
+            <Registry_FarmId />
+            <Registry_FarmName />
+            <Registry_HasValidLicense>False</Registry_HasValidLicense>
+            <Registry_InstallDir>C:\Program Files\Citrix\</Registry_InstallDir>
+            <Registry_LicenseServerName />
+            <Registry_LicenseServerPort>0</Registry_LicenseServerPort>
+            <Registry_LicensingBurnInDate />
+            <Registry_LicensingModel />
+            <Registry_ProductEdition />
+            <Registry_ProductLicenseName />
+            <Registry_Protocol />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+            <VDAInstalled>True</VDAInstalled>
+            <Version>7.8.0.8004</Version>
+          </WMI>
+        </VDAInfo>
+        <VDAInfo>
+          <ClassName>Citrix_XenApp</ClassName>
+          <WMI>
+            <LastError>This class is not supported in this product</LastError>
+            <Registry_InstallDir />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>False</Supported>
+            <Version />
+          </WMI>
+        </VDAInfo>
+      </Records>
+    </VDADataProvider>
+    <SessionsDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>Sessions</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:25.6833168+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <Session>
+          <ClassName>Citrix_Sessions</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <AppNames />
+            <AppState>0</AppState>
+            <ClientIP>192.168.8.4</ClientIP>
+            <ClientName>LOGINGS-DAFAD9A2</ClientName>
+            <EncryptionLevel>40</EncryptionLevel>
+            <IsBrokered>False</IsBrokered>
+            <IsPublishedApp>False</IsPublishedApp>
+            <LastError />
+            <ProductID>1</ProductID>
+            <PublishedName>DCNDS0005337 $S1-1</PublishedName>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <State>0</State>
+            <StationName>Console</StationName>
+            <Supported>True</Supported>
+          </WMI>
+        </Session>
+      </Records>
+    </SessionsDataProvider>
+    <ClientDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>Client</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:25.6483133+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <Client>
+          <ClassName>Citrix_Client_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Address>192.168.8.4</Address>
+            <BuildNumber>14</BuildNumber>
+            <HardwareId>414348536</HardwareId>
+            <InternetClient>False</InternetClient>
+            <LastError />
+            <Name>LOGINGS-DAFAD9A2</Name>
+            <Policy_AutoConnectClientComPorts>False</Policy_AutoConnectClientComPorts>
+            <Policy_AutoConnectClientLptPorts>False</Policy_AutoConnectClientLptPorts>
+            <ProductId>1</ProductId>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+            <Version>14.2.100.14</Version>
+          </WMI>
+        </Client>
+      </Records>
+    </ClientDataProvider>
+    <NetworkDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>Network</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:25.6573142+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <NetworkData>
+          <ClassName>Citrix_Network_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <IsMultiStreamActive>False</IsMultiStreamActive>
+            <IsSessionReliabilityActive>False</IsSessionReliabilityActive>
+            <LastError />
+            <Policy_AcceptSessionReliabilityConnections>False</Policy_AcceptSessionReliabilityConnections>
+            <Policy_ICAListenerPortNumber>1494</Policy_ICAListenerPortNumber>
+            <Policy_MultiStreamMachine>False</Policy_MultiStreamMachine>
+            <Policy_MultiStreamPort />
+            <Policy_MultiStreamUser>False</Policy_MultiStreamUser>
+            <Policy_SessionReliabilityPort>2598</Policy_SessionReliabilityPort>
+            <Policy_SessionReliabilityTimeout>180</Policy_SessionReliabilityTimeout>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </NetworkData>
+      </Records>
+      <Counters>
+        <Session1>
+          <LineSpeed />
+          <AverageLatency />
+          <OutputSessionBandwidth />
+          <InputSessionBandwidth />
+        </Session1>
+      </Counters>
+    </NetworkDataProvider>
+    <BranchRepeaterDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>Branch Repeater</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:25.6523137+08:00</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+      <Records>
+        <BranchRepeaterInfo>
+          <ClassName>Citrix_BranchRepeater</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_CompressionDisabled>False</Component_CompressionDisabled>
+            <Component_PrinterCompressionDisabled>False</Component_PrinterCompressionDisabled>
+            <Component_WanScalerFlowControlEnabled>False</Component_WanScalerFlowControlEnabled>
+            <LastError />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Settings_WanScalerPresent>False</Settings_WanScalerPresent>
+            <Supported>True</Supported>
+          </WMI>
+        </BranchRepeaterInfo>
+      </Records>
+    </BranchRepeaterDataProvider>
+    <EventLogsDataProvider>
+      <IsVirtualChannel>False</IsVirtualChannel>
+      <Name>Event logs</Name>
+      <Loaded>False</Loaded>
+      <Supported>False</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>0001-01-01T00:00:00.0000000</LastUpdated>
+      <ServiceName />
+      <EventLogName />
+    </EventLogsDataProvider>
+    <AdobeFlashDataProvider>
+      <ServiceName>CtxFlashSvc</ServiceName>
+      <EventLogName>Citrix-Multimedia-Flash/Admin</EventLogName>
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Adobe® Flash®</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Inactive</Active>
+      <LastUpdated>2016-03-31T22:27:25.7283213+08:00</LastUpdated>
+      <Records>
+        <AdobeFlashData>
+          <ClassName>Citrix_VirtualChannel_Flash_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>Medium</Component_ActualPriority>
+            <Component_ClientFlashVersion />
+            <Component_HDXFlashVersion>0</Component_HDXFlashVersion>
+            <Component_NumSubChannels>0</Component_NumSubChannels>
+            <Component_ScriptingCallsBrowserToFlashPlayer>0</Component_ScriptingCallsBrowserToFlashPlayer>
+            <Component_ScriptingCallsFlashPlayerToBrowser>0</Component_ScriptingCallsFlashPlayerToBrowser>
+            <Component_SscfBytes>0</Component_SscfBytes>
+            <Component_SscfFetches>0</Component_SscfFetches>
+            <DefaultBehavior>Enable</DefaultBehavior>
+            <Event_Created>20160330144721.796534+480</Event_Created>
+            <Event_ID>45</Event_ID>
+            <Event_Level>Error</Event_Level>
+            <Event_Message>The HDX MediaStream for Flash Service is not available.  Server-side Flash rendering will be used if available.</Event_Message>
+            <FlashVersion>21,0,0,182</FlashVersion>
+            <IEVersion>9.11.9600.18230</IEVersion>
+            <IsActive>Inactive</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_IntelligentFallback>True</Policy_IntelligentFallback>
+            <Policy_LatencyThreshold>30</Policy_LatencyThreshold>
+            <Policy_PerURLBlacklist />
+            <Policy_Priority>Default</Policy_Priority>
+            <Policy_ServerSideContentFetchingConfigured>False</Policy_ServerSideContentFetchingConfigured>
+            <Policy_ServerSideContentFetchingWhitelist />
+            <Policy_UrlColorList />
+            <Policy_UrlCompatibilityList />
+            <Registry_DynamicBlackList />
+            <ServiceStatus>Stopped</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </AdobeFlashData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </AdobeFlashDataProvider>
+    <AudioDataProviderXD>
+      <ServiceName>CtxAudioSrv</ServiceName>
+      <EventLogName>Citrix-Multimedia-Audio/Admin</EventLogName>
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Audio</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Active</Active>
+      <LastUpdated>2016-03-31T22:27:25.9853470+08:00</LastUpdated>
+      <Records>
+        <AudioDataXD>
+          <ClassName>Citrix_VirtualChannel_AudioXD_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>RealTime</Component_ActualPriority>
+            <Component_CaptureEnabled>True</Component_CaptureEnabled>
+            <Component_Device_AvgBytesPerSecond>176400</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>16800</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>16</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>4</Component_Device_BlockAlign>
+            <Component_Device_Channels>2</Component_Device_Channels>
+            <Component_Device_Codec>Speex</Component_Device_Codec>
+            <Component_Device_Name>Speakers (Cirrus Logic CS4206B </Component_Device_Name>
+            <Component_Device_Roles>7</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>44100</Component_Device_SamplesPerSecond>
+            <Component_Device_State>1</Component_Device_State>
+            <Component_Device_Type>1</Component_Device_Type>
+            <Component_RTP_bHandShakeSuccess>False</Component_RTP_bHandShakeSuccess>
+            <Component_RTP_Enabled>True</Component_RTP_Enabled>
+            <Component_RTP_InUse>False</Component_RTP_InUse>
+            <Component_RTP_RTPClientCaps>True</Component_RTP_RTPClientCaps>
+            <Component_RTP_ServerPolicyPortHighest>16509</Component_RTP_ServerPolicyPortHighest>
+            <Component_RTP_ServerPolicyPortLowest>16500</Component_RTP_ServerPolicyPortLowest>
+            <Component_RTP_ServerPolicyValueRTPEnabled>True</Component_RTP_ServerPolicyValueRTPEnabled>
+            <Component_RTP_ServerPortUsedUDP>16501</Component_RTP_ServerPortUsedUDP>
+            <Component_RTP_UDPHandshakeProgress>5</Component_RTP_UDPHandshakeProgress>
+            <DeviceID>1</DeviceID>
+            <Event_Created>20160331212938.172997+480</Event_Created>
+            <Event_ID>9005</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>A new audio device is plugged in and ready for use.</Event_Message>
+            <IsActive>Active</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AllowMicrophoneRedir>True</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>True</Policy_AllowRedirection>
+            <Policy_AllowRtpAudio>True</Policy_AllowRtpAudio>
+            <Policy_EnablePlugNPlay>True</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>RealTime</Policy_Priority>
+            <Policy_RtpAudioPortRange>16500,16509</Policy_RtpAudioPortRange>
+            <Policy_SoundQuality>Medium</Policy_SoundQuality>
+            <ServicePriority>10</ServicePriority>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </AudioDataXD>
+        <AudioDataXD>
+          <ClassName>Citrix_VirtualChannel_AudioXD_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>RealTime</Component_ActualPriority>
+            <Component_CaptureEnabled>True</Component_CaptureEnabled>
+            <Component_Device_AvgBytesPerSecond>176400</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>16800</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>16</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>4</Component_Device_BlockAlign>
+            <Component_Device_Channels>2</Component_Device_Channels>
+            <Component_Device_Codec>Speex</Component_Device_Codec>
+            <Component_Device_Name>Digital Audio (S/PDIF) (Cirrus </Component_Device_Name>
+            <Component_Device_Roles>0</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>44100</Component_Device_SamplesPerSecond>
+            <Component_Device_State>1</Component_Device_State>
+            <Component_Device_Type>1</Component_Device_Type>
+            <Component_RTP_bHandShakeSuccess>False</Component_RTP_bHandShakeSuccess>
+            <Component_RTP_Enabled>True</Component_RTP_Enabled>
+            <Component_RTP_InUse>False</Component_RTP_InUse>
+            <Component_RTP_RTPClientCaps>True</Component_RTP_RTPClientCaps>
+            <Component_RTP_ServerPolicyPortHighest>16509</Component_RTP_ServerPolicyPortHighest>
+            <Component_RTP_ServerPolicyPortLowest>16500</Component_RTP_ServerPolicyPortLowest>
+            <Component_RTP_ServerPolicyValueRTPEnabled>True</Component_RTP_ServerPolicyValueRTPEnabled>
+            <Component_RTP_ServerPortUsedUDP>16501</Component_RTP_ServerPortUsedUDP>
+            <Component_RTP_UDPHandshakeProgress>5</Component_RTP_UDPHandshakeProgress>
+            <DeviceID>3</DeviceID>
+            <Event_Created>20160331212938.172997+480</Event_Created>
+            <Event_ID>9005</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>A new audio device is plugged in and ready for use.</Event_Message>
+            <IsActive>Active</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AllowMicrophoneRedir>True</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>True</Policy_AllowRedirection>
+            <Policy_AllowRtpAudio>True</Policy_AllowRtpAudio>
+            <Policy_EnablePlugNPlay>True</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>RealTime</Policy_Priority>
+            <Policy_RtpAudioPortRange>16500,16509</Policy_RtpAudioPortRange>
+            <Policy_SoundQuality>Medium</Policy_SoundQuality>
+            <ServicePriority>10</ServicePriority>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </AudioDataXD>
+        <AudioDataXD>
+          <ClassName>Citrix_VirtualChannel_AudioXD_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>RealTime</Component_ActualPriority>
+            <Component_CaptureEnabled>True</Component_CaptureEnabled>
+            <Component_Device_AvgBytesPerSecond>88200</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>16800</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>16</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>2</Component_Device_BlockAlign>
+            <Component_Device_Channels>1</Component_Device_Channels>
+            <Component_Device_Codec>Speex</Component_Device_Codec>
+            <Component_Device_Name>Microphone (Cirrus Logic CS4206</Component_Device_Name>
+            <Component_Device_Roles>7</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>44100</Component_Device_SamplesPerSecond>
+            <Component_Device_State>1</Component_Device_State>
+            <Component_Device_Type>2</Component_Device_Type>
+            <Component_RTP_bHandShakeSuccess>False</Component_RTP_bHandShakeSuccess>
+            <Component_RTP_Enabled>True</Component_RTP_Enabled>
+            <Component_RTP_InUse>False</Component_RTP_InUse>
+            <Component_RTP_RTPClientCaps>True</Component_RTP_RTPClientCaps>
+            <Component_RTP_ServerPolicyPortHighest>16509</Component_RTP_ServerPolicyPortHighest>
+            <Component_RTP_ServerPolicyPortLowest>16500</Component_RTP_ServerPolicyPortLowest>
+            <Component_RTP_ServerPolicyValueRTPEnabled>True</Component_RTP_ServerPolicyValueRTPEnabled>
+            <Component_RTP_ServerPortUsedUDP>16501</Component_RTP_ServerPortUsedUDP>
+            <Component_RTP_UDPHandshakeProgress>5</Component_RTP_UDPHandshakeProgress>
+            <DeviceID>2</DeviceID>
+            <Event_Created>20160331212938.172997+480</Event_Created>
+            <Event_ID>9005</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>A new audio device is plugged in and ready for use.</Event_Message>
+            <IsActive>Active</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AllowMicrophoneRedir>True</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>True</Policy_AllowRedirection>
+            <Policy_AllowRtpAudio>True</Policy_AllowRtpAudio>
+            <Policy_EnablePlugNPlay>True</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>RealTime</Policy_Priority>
+            <Policy_RtpAudioPortRange>16500,16509</Policy_RtpAudioPortRange>
+            <Policy_SoundQuality>Medium</Policy_SoundQuality>
+            <ServicePriority>10</ServicePriority>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </AudioDataXD>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </AudioDataProviderXD>
+    <AudioDataProviderXA>
+      <ServiceName />
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Audio</Name>
+      <Loaded>True</Loaded>
+      <Supported>False</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active />
+      <LastUpdated>2016-03-31T22:27:08.9927479+08:00</LastUpdated>
+      <Records>
+        <AudioDataXA>
+          <ClassName>Citrix_VirtualChannel_AudioXA_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>False</Supported>
+          <LastError>This class is not supported in this product</LastError>
+          <WMI>
+            <Component_ActualPriority>Unknown</Component_ActualPriority>
+            <Component_Device_ApplicationFormat />
+            <Component_Device_AvgBytesPerSecond>0</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>0</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>0</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>0</Component_Device_BlockAlign>
+            <Component_Device_Channels>0</Component_Device_Channels>
+            <Component_Device_Codec />
+            <Component_Device_MaxPackets>0</Component_Device_MaxPackets>
+            <Component_Device_MaxPacketSize>0</Component_Device_MaxPacketSize>
+            <Component_Device_Name />
+            <Component_Device_Opened>False</Component_Device_Opened>
+            <Component_Device_Roles>0</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>0</Component_Device_SamplesPerSecond>
+            <Component_Device_State>0</Component_Device_State>
+            <Component_Device_Type>0</Component_Device_Type>
+            <DeviceID>1</DeviceID>
+            <Event_Created>20160331222708.929741+480</Event_Created>
+            <Event_ID>0</Event_ID>
+            <Event_Level />
+            <Event_Message />
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>False</IsPresent>
+            <LastError>This class is not supported in this product</LastError>
+            <Policy_AllowMicrophoneRedir>False</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>False</Policy_AllowRedirection>
+            <Policy_EnablePlugNPlay>False</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority />
+            <Policy_SoundQuality />
+            <Registry_Session_AudioDisabled>False</Registry_Session_AudioDisabled>
+            <Registry_Session_AudioInputDisabled>False</Registry_Session_AudioInputDisabled>
+            <Registry_Session_CodecsDisabled>False</Registry_Session_CodecsDisabled>
+            <Registry_Session_MaxSupportedFormat />
+            <ServiceStatus />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>False</Supported>
+          </WMI>
+        </AudioDataXA>
+        <AudioDataXA>
+          <ClassName>Citrix_VirtualChannel_AudioXA_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>False</Supported>
+          <LastError>This class is not supported in this product</LastError>
+          <WMI>
+            <Component_ActualPriority>Unknown</Component_ActualPriority>
+            <Component_Device_ApplicationFormat />
+            <Component_Device_AvgBytesPerSecond>0</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>0</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>0</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>0</Component_Device_BlockAlign>
+            <Component_Device_Channels>0</Component_Device_Channels>
+            <Component_Device_Codec />
+            <Component_Device_MaxPackets>0</Component_Device_MaxPackets>
+            <Component_Device_MaxPacketSize>0</Component_Device_MaxPacketSize>
+            <Component_Device_Name />
+            <Component_Device_Opened>False</Component_Device_Opened>
+            <Component_Device_Roles>0</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>0</Component_Device_SamplesPerSecond>
+            <Component_Device_State>0</Component_Device_State>
+            <Component_Device_Type>0</Component_Device_Type>
+            <DeviceID>3</DeviceID>
+            <Event_Created>20160331222708.944743+480</Event_Created>
+            <Event_ID>0</Event_ID>
+            <Event_Level />
+            <Event_Message />
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>False</IsPresent>
+            <LastError>This class is not supported in this product</LastError>
+            <Policy_AllowMicrophoneRedir>False</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>False</Policy_AllowRedirection>
+            <Policy_EnablePlugNPlay>False</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority />
+            <Policy_SoundQuality />
+            <Registry_Session_AudioDisabled>False</Registry_Session_AudioDisabled>
+            <Registry_Session_AudioInputDisabled>False</Registry_Session_AudioInputDisabled>
+            <Registry_Session_CodecsDisabled>False</Registry_Session_CodecsDisabled>
+            <Registry_Session_MaxSupportedFormat />
+            <ServiceStatus />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>False</Supported>
+          </WMI>
+        </AudioDataXA>
+        <AudioDataXA>
+          <ClassName>Citrix_VirtualChannel_AudioXA_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>False</Supported>
+          <LastError>This class is not supported in this product</LastError>
+          <WMI>
+            <Component_ActualPriority>Unknown</Component_ActualPriority>
+            <Component_Device_ApplicationFormat />
+            <Component_Device_AvgBytesPerSecond>0</Component_Device_AvgBytesPerSecond>
+            <Component_Device_BitRate>0</Component_Device_BitRate>
+            <Component_Device_BitsPerSample>0</Component_Device_BitsPerSample>
+            <Component_Device_BlockAlign>0</Component_Device_BlockAlign>
+            <Component_Device_Channels>0</Component_Device_Channels>
+            <Component_Device_Codec />
+            <Component_Device_MaxPackets>0</Component_Device_MaxPackets>
+            <Component_Device_MaxPacketSize>0</Component_Device_MaxPacketSize>
+            <Component_Device_Name />
+            <Component_Device_Opened>False</Component_Device_Opened>
+            <Component_Device_Roles>0</Component_Device_Roles>
+            <Component_Device_SamplesPerSecond>0</Component_Device_SamplesPerSecond>
+            <Component_Device_State>0</Component_Device_State>
+            <Component_Device_Type>0</Component_Device_Type>
+            <DeviceID>2</DeviceID>
+            <Event_Created>20160331222708.945743+480</Event_Created>
+            <Event_ID>0</Event_ID>
+            <Event_Level />
+            <Event_Message />
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>False</IsPresent>
+            <LastError>This class is not supported in this product</LastError>
+            <Policy_AllowMicrophoneRedir>False</Policy_AllowMicrophoneRedir>
+            <Policy_AllowRedirection>False</Policy_AllowRedirection>
+            <Policy_EnablePlugNPlay>False</Policy_EnablePlugNPlay>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority />
+            <Policy_SoundQuality />
+            <Registry_Session_AudioDisabled>False</Registry_Session_AudioDisabled>
+            <Registry_Session_AudioInputDisabled>False</Registry_Session_AudioInputDisabled>
+            <Registry_Session_CodecsDisabled>False</Registry_Session_CodecsDisabled>
+            <Registry_Session_MaxSupportedFormat />
+            <ServiceStatus />
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>False</Supported>
+          </WMI>
+        </AudioDataXA>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </AudioDataProviderXA>
+    <D3DDataProvider>
+      <ServiceName />
+      <EventLogName>Citrix-Graphics-Vd3d/Admin</EventLogName>
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Graphics - Direct 3D</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Inactive</Active>
+      <LastUpdated>2016-03-31T22:27:25.7643249+08:00</LastUpdated>
+      <Records>
+        <D3DData>
+          <ClassName>Citrix_VirtualChannel_D3D_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>High</Component_ActualPriority>
+            <Component_BytesOnWire>0</Component_BytesOnWire>
+            <Component_BytesUncompressed>0</Component_BytesUncompressed>
+            <Component_DisplayState>0</Component_DisplayState>
+            <Component_fps>0</Component_fps>
+            <Component_FramesOffscreen>0</Component_FramesOffscreen>
+            <Component_FramesVisible>0</Component_FramesVisible>
+            <Component_ImageCompressionType>0</Component_ImageCompressionType>
+            <Component_ImageQuality>0</Component_ImageQuality>
+            <Component_RoundTripTime>0</Component_RoundTripTime>
+            <Component_Slow>0</Component_Slow>
+            <Device_ContextID />
+            <Event_Created>20160331212937.841964+480</Event_Created>
+            <Event_ID>1007</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>Composition Redirection was unable to start because it is disabled by policy</Event_Message>
+            <IsActive>Inactive</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AeroRedirection>False</Policy_AeroRedirection>
+            <Policy_GraphicsQuality>High</Policy_GraphicsQuality>
+            <Policy_Priority>High</Policy_Priority>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </D3DData>
+      </Records>
+      <Counters />
+    </D3DDataProvider>
+    <GraphicsDataProvider>
+      <ServiceName />
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Graphics - Thinwire</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Active</Active>
+      <LastUpdated>2016-03-31T22:27:25.7363221+08:00</LastUpdated>
+      <Records>
+        <GraphicsData>
+          <ClassName>Citrix_VirtualChannel_Graphics_Enum</ClassName>
+          <JpegQuality>Minimum</JpegQuality>
+          <DefaultCompressionLevel>0</DefaultCompressionLevel>
+          <DefaultLossyCompressionLevel>0</DefaultLossyCompressionLevel>
+          <LossyCompressionLevel>1</LossyCompressionLevel>
+          <LossyCompressionEnabled>False</LossyCompressionEnabled>
+          <LossyCompressionThreshold>False</LossyCompressionThreshold>
+          <LossyCompressionThresholdBandwidth>0</LossyCompressionThresholdBandwidth>
+          <UsingExtraColorCompression>False</UsingExtraColorCompression>
+          <ProgressiveCompressionEnabled>False</ProgressiveCompressionEnabled>
+          <ProgressiveCompressionLevel>None</ProgressiveCompressionLevel>
+          <ProgressiveCompressionThreshold_Enabled>False</ProgressiveCompressionThreshold_Enabled>
+          <ProgressiveCompressionThreshold>0</ProgressiveCompressionThreshold>
+          <UseHeavyweightCompression>False</UseHeavyweightCompression>
+          <MaxFPS>30</MaxFPS>
+          <MinFPS>10</MinFPS>
+          <CurrentFramesPerSecond>9</CurrentFramesPerSecond>
+          <CurrentTransientQuality>80</CurrentTransientQuality>
+          <AdaptiveDisplayOperational>True</AdaptiveDisplayOperational>
+          <ProgressiveCompressionOperational>False</ProgressiveCompressionOperational>
+          <MinTransientQuality>20</MinTransientQuality>
+          <MaxTransientQuality>80</MaxTransientQuality>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>High</Component_ActualPriority>
+            <Component_AdaptiveDisplayOperational>True</Component_AdaptiveDisplayOperational>
+            <Component_CurrentFramesPerSecond>9</Component_CurrentFramesPerSecond>
+            <Component_CurrentTransientQuality>80</Component_CurrentTransientQuality>
+            <Component_IsValid>True</Component_IsValid>
+            <Component_MaxFramesPerSecond>30</Component_MaxFramesPerSecond>
+            <Component_MaxTransientQuality>80</Component_MaxTransientQuality>
+            <Component_MinFramesPerSecond>10</Component_MinFramesPerSecond>
+            <Component_MinTransientQuality>20</Component_MinTransientQuality>
+            <Component_NormalLossyCompressionOperational>True</Component_NormalLossyCompressionOperational>
+            <Component_NormalQualitySettingBeingUsed>90</Component_NormalQualitySettingBeingUsed>
+            <Component_ProgressiveCompressionOperational>False</Component_ProgressiveCompressionOperational>
+            <Component_ProgressiveQualitySettingBeingUsed>100</Component_ProgressiveQualitySettingBeingUsed>
+            <Component_WdEstimatedBandwidthKbps>64939</Component_WdEstimatedBandwidthKbps>
+            <IsActive>Active</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AllowImageCaching>True</Policy_AllowImageCaching>
+            <Policy_AllowQueueandToss>True</Policy_AllowQueueandToss>
+            <Policy_AllowSpeedFlash>SPEEDFLASH_OFF</Policy_AllowSpeedFlash>
+            <Policy_DisplayDegradeNotifyUser>False</Policy_DisplayDegradeNotifyUser>
+            <Policy_DisplayDegradePolicy>DEGRADE_COLOR_DEPTH_FIRST</Policy_DisplayDegradePolicy>
+            <Policy_EnableHeavyweightCompression>False</Policy_EnableHeavyweightCompression>
+            <Policy_ExtraColorCompression>False</Policy_ExtraColorCompression>
+            <Policy_ExtraColorCompressionThreshold>8192</Policy_ExtraColorCompressionThreshold>
+            <Policy_FramesPerSecond>30</Policy_FramesPerSecond>
+            <Policy_LegacyGraphicsMode>True</Policy_LegacyGraphicsMode>
+            <Policy_LossyCompressionEnabled>False</Policy_LossyCompressionEnabled>
+            <Policy_LossyCompressionLevel>1</Policy_LossyCompressionLevel>
+            <Policy_LossyCompressionThreshold>False</Policy_LossyCompressionThreshold>
+            <Policy_LossyCompressionThresholdBandwidth>2147483647</Policy_LossyCompressionThresholdBandwidth>
+            <Policy_MaxDisplayMemory>131027</Policy_MaxDisplayMemory>
+            <Policy_MinimumAdaptiveDisplayJpegQuality>0</Policy_MinimumAdaptiveDisplayJpegQuality>
+            <Policy_PersistentCache>3000000</Policy_PersistentCache>
+            <Policy_Priority>High</Policy_Priority>
+            <Policy_ProgressiveCompressionLevel>0</Policy_ProgressiveCompressionLevel>
+            <Policy_ProgressiveCompressionThreshold>2147483647</Policy_ProgressiveCompressionThreshold>
+            <Policy_ProgressiveCompressionThresholdEnabled>False</Policy_ProgressiveCompressionThresholdEnabled>
+            <Policy_UseHeavyweightCompression>False</Policy_UseHeavyweightCompression>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </GraphicsData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </GraphicsDataProvider>
+    <ThinwireDataProvider>
+      <ServiceName />
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Graphics - Thinwire Advanced</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Inactive</Active>
+      <LastUpdated>2016-03-31T22:27:25.7653250+08:00</LastUpdated>
+      <Records>
+        <ThinwireData>
+          <ClassName>Citrix_VirtualChannel_Thinwire_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>High</Component_ActualPriority>
+            <Component_Capabilities_AtomicFrameSupport>False</Component_Capabilities_AtomicFrameSupport>
+            <Component_Capabilities_CapabilitiesUpdateSupport>False</Component_Capabilities_CapabilitiesUpdateSupport>
+            <Component_Capabilities_ClientFPSLimitSupport>False</Component_Capabilities_ClientFPSLimitSupport>
+            <Component_Capabilities_CompressionThreshold_Enabled>False</Component_Capabilities_CompressionThreshold_Enabled>
+            <Component_Capabilities_CompressionThreshold_LossyCompressionThreshold>0</Component_Capabilities_CompressionThreshold_LossyCompressionThreshold>
+            <Component_Capabilities_Cursor32BitsSupport>False</Component_Capabilities_Cursor32BitsSupport>
+            <Component_Capabilities_DirtyRegion_Enabled>False</Component_Capabilities_DirtyRegion_Enabled>
+            <Component_Capabilities_EndOfFrameSupport>False</Component_Capabilities_EndOfFrameSupport>
+            <Component_Capabilities_EnhancedModeChangeSupport>False</Component_Capabilities_EnhancedModeChangeSupport>
+            <Component_Capabilities_FrameMetricsSupportMask>0</Component_Capabilities_FrameMetricsSupportMask>
+            <Component_Capabilities_H264ColorFormatSupport_Enabled>False</Component_Capabilities_H264ColorFormatSupport_Enabled>
+            <Component_Capabilities_H264ColorFormatSupport_SupportedColorFormats>0</Component_Capabilities_H264ColorFormatSupport_SupportedColorFormats>
+            <Component_Capabilities_H264DisplayChangeSupport>False</Component_Capabilities_H264DisplayChangeSupport>
+            <Component_Capabilities_H264Profile_PreferredProfiles>0</Component_Capabilities_H264Profile_PreferredProfiles>
+            <Component_Capabilities_H264Profile_SupportedProfiles>0</Component_Capabilities_H264Profile_SupportedProfiles>
+            <Component_Capabilities_HotBitmapCacheFixSupport>False</Component_Capabilities_HotBitmapCacheFixSupport>
+            <Component_Capabilities_OSS_Enabled>False</Component_Capabilities_OSS_Enabled>
+            <Component_Capabilities_OSS_MaxBmpSize>0</Component_Capabilities_OSS_MaxBmpSize>
+            <Component_Capabilities_OSS_MaxHeight>0</Component_Capabilities_OSS_MaxHeight>
+            <Component_Capabilities_OSS_MaxNumOfSurfaces>0</Component_Capabilities_OSS_MaxNumOfSurfaces>
+            <Component_Capabilities_OSS_MaxWidth>0</Component_Capabilities_OSS_MaxWidth>
+            <Component_Capabilities_OSS_MinHeight>0</Component_Capabilities_OSS_MinHeight>
+            <Component_Capabilities_OSS_MinWidth>0</Component_Capabilities_OSS_MinWidth>
+            <Component_Capabilities_OSS_SupportedDepths>0</Component_Capabilities_OSS_SupportedDepths>
+            <Component_Capabilities_SmallFrameSupport_Enabled>False</Component_Capabilities_SmallFrameSupport_Enabled>
+            <Component_Capabilities_SmallFrameSupport_Supported>0</Component_Capabilities_SmallFrameSupport_Supported>
+            <Component_Capabilities_SmallFrameSupport_VersionNumber>0</Component_Capabilities_SmallFrameSupport_VersionNumber>
+            <Component_Capabilities_SupportedCodecs>0</Component_Capabilities_SupportedCodecs>
+            <Component_Capabilities_TextTracking_Enabled>False</Component_Capabilities_TextTracking_Enabled>
+            <Component_Capabilities_TextTracking_Version>0</Component_Capabilities_TextTracking_Version>
+            <Component_Capabilities_ThinwireProfile>0</Component_Capabilities_ThinwireProfile>
+            <Component_Capabilities_ThinwireProfileEnabled>False</Component_Capabilities_ThinwireProfileEnabled>
+            <Component_Capabilities_ThinwireReducerSupport>False</Component_Capabilities_ThinwireReducerSupport>
+            <Component_Capabilities_UseUniversalCacheHandles>False</Component_Capabilities_UseUniversalCacheHandles>
+            <Component_Enabled>False</Component_Enabled>
+            <Component_Encoder>CompatibilityEncoder</Component_Encoder>
+            <Component_Fps>0</Component_Fps>
+            <Component_GPUs />
+            <Component_IsValid>True</Component_IsValid>
+            <Component_Monitor_Bottom>0</Component_Monitor_Bottom>
+            <Component_Monitor_IsPrimary>False</Component_Monitor_IsPrimary>
+            <Component_Monitor_Left>0</Component_Monitor_Left>
+            <Component_Monitor_Right>0</Component_Monitor_Right>
+            <Component_Monitor_Top>0</Component_Monitor_Top>
+            <Component_MonitorID>0</Component_MonitorID>
+            <Component_MonitorLayout_Count>0</Component_MonitorLayout_Count>
+            <Component_MonitorLayout_Height>0</Component_MonitorLayout_Height>
+            <Component_MonitorLayout_PrimaryID>0</Component_MonitorLayout_PrimaryID>
+            <Component_MonitorLayout_Width>0</Component_MonitorLayout_Width>
+            <Component_Provider>None</Component_Provider>
+            <Component_VGXStatusEnabled>False</Component_VGXStatusEnabled>
+            <IsActive>Inactive</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_FramesPerSecond>30</Policy_FramesPerSecond>
+            <Policy_LegacyGraphicsMode>True</Policy_LegacyGraphicsMode>
+            <Policy_Priority>High</Policy_Priority>
+            <Policy_VisualQuality>Medium</Policy_VisualQuality>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </ThinwireData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </ThinwireDataProvider>
+    <PrintingDataProvider>
+      <ServiceName>cpsvc</ServiceName>
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Printing</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Unknown</Active>
+      <LastUpdated>2016-03-31T22:27:20.9918477+08:00</LastUpdated>
+      <Records>
+        <PrintingData>
+          <ClassName>Win32_PrinterDriver</ClassName>
+          <SessionID>0</SessionID>
+          <SessionKey />
+          <Supported>False</Supported>
+          <LastError />
+          <WMI>
+            <Caption />
+            <ConfigFile>C:\Windows\system32\spool\DRIVERS\x64\3\Cpxpsupdui.dll</ConfigFile>
+            <CreationClassName>Win32_PrinterDriver</CreationClassName>
+            <DataFile>C:\Windows\system32\spool\DRIVERS\x64\3\CitrixXps.txt</DataFile>
+            <DefaultDataType />
+            <DependentFiles>C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_en.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_de.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_fr.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ja.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_es.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_zh-CN.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_zh-TW.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ko.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ru.dll;C:\Windows\system32\spool\DRIVERS\x64\3\upprn.dll;C:\Windows\system32\spool\DRIVERS\x64\3\CitrixXpsDrv-PipelineConFig.xml;C:\Windows\system32\spool\DRIVERS\x64\3\DefaultCapabilities.xml;C:\Windows\system32\spool\DRIVERS\x64\3\UNIDRV.DLL;C:\Windows\system32\spool\DRIVERS\x64\3\UNIRES.DLL;C:\Windows\system32\spool\DRIVERS\x64\3\UNIDRVUI.DLL;C:\Windows\system32\spool\DRIVERS\x64\3\STDNAMES.GPD;C:\Windows\system32\spool\DRIVERS\x64\3\STDDTYPE.GDL;C:\Windows\system32\spool\DRIVERS\x64\3\STDSCHEM.GDL;C:\Windows\system32\spool\DRIVERS\x64\3\STDSCHMX.GDL;C:\Windows\system32\spool\DRIVERS\x64\3\UNIDRV.HLP;C:\Windows\system32\spool\DRIVERS\x64\3\MSXPSINC.GPD;C:\Windows\system32\spool\DRIVERS\x64\3\XPSSVCS.DLL</DependentFiles>
+            <Description />
+            <DriverPath>C:\Windows\system32\spool\DRIVERS\x64\3\mxdwdrv.dll</DriverPath>
+            <FilePath />
+            <HelpFile />
+            <InfName />
+            <InstallDate />
+            <MonitorName />
+            <Name>Citrix XPS Universal Printer,3,Windows x64</Name>
+            <OEMUrl />
+            <Started />
+            <StartMode />
+            <Status />
+            <SupportedPlatform>Windows x64</SupportedPlatform>
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName />
+            <Version>3</Version>
+          </WMI>
+        </PrintingData>
+        <PrintingData>
+          <ClassName>Win32_PrinterDriver</ClassName>
+          <SessionID>0</SessionID>
+          <SessionKey />
+          <Supported>False</Supported>
+          <LastError />
+          <WMI>
+            <Caption />
+            <ConfigFile>C:\Windows\system32\spool\DRIVERS\x64\3\Cpupdui.dll</ConfigFile>
+            <CreationClassName>Win32_PrinterDriver</CreationClassName>
+            <DataFile>C:\Windows\system32\spool\DRIVERS\x64\3\CitrixUpd.txt</DataFile>
+            <DefaultDataType />
+            <DependentFiles>C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_en.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_de.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_fr.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ja.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_es.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_zh-CN.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_zh-TW.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ko.dll;C:\Windows\system32\spool\DRIVERS\x64\3\cupdres_ru.dll;C:\Windows\system32\spool\DRIVERS\x64\3\upprn.dll</DependentFiles>
+            <Description />
+            <DriverPath>C:\Windows\system32\spool\DRIVERS\x64\3\Cpupdrv.dll</DriverPath>
+            <FilePath />
+            <HelpFile />
+            <InfName />
+            <InstallDate />
+            <MonitorName />
+            <Name>Citrix Universal Printer,3,Windows x64</Name>
+            <OEMUrl />
+            <Started />
+            <StartMode />
+            <Status />
+            <SupportedPlatform>Windows x64</SupportedPlatform>
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName />
+            <Version>3</Version>
+          </WMI>
+        </PrintingData>
+        <PrintingData>
+          <ClassName>Citrix_VirtualChannel_Printer_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>Low</Component_ActualPriority>
+            <Component_PrinterID>0</Component_PrinterID>
+            <Component_PrinterName />
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsMappingAtLogon>True</IsMappingAtLogon>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_AllowRedirection>False</Policy_AllowRedirection>
+            <Policy_AutoCreateClientPrinters>2</Policy_AutoCreateClientPrinters>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>Low</Policy_Priority>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </PrintingData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </PrintingDataProvider>
+    <ScannerDataProvider>
+      <ServiceName />
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Scanner</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Unknown</Active>
+      <LastUpdated>2016-03-31T22:27:20.7598245+08:00</LastUpdated>
+      <Records>
+        <ScannerData>
+          <ClassName>Citrix_VirtualChannel_Scanner_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>Medium</Component_ActualPriority>
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_Priority>Medium</Policy_Priority>
+            <Policy_TWAINCompressionLevel>MEDIUM</Policy_TWAINCompressionLevel>
+            <Policy_TWAINRedirectionEnable>True</Policy_TWAINRedirectionEnable>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </ScannerData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </ScannerDataProvider>
+    <SmartCardDataProvider>
+      <ServiceName>CtxSmartCardSvc</ServiceName>
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Smart Cards</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Inactive</Active>
+      <LastUpdated>2016-03-31T22:27:20.7958281+08:00</LastUpdated>
+      <Records>
+        <SmartCardData>
+          <ClassName>Citrix_VirtualChannel_SmartCard_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>High</Component_ActualPriority>
+            <Component_Reader_Atr />
+            <Component_Reader_StateBitMask>0</Component_Reader_StateBitMask>
+            <Component_Reader_UpdateSeqNumber>0</Component_Reader_UpdateSeqNumber>
+            <Component_ReaderName />
+            <Component_Session_NumExecutedSCardCalls>17</Component_Session_NumExecutedSCardCalls>
+            <Component_Session_NumPendingGetStatusChanges>2</Component_Session_NumPendingGetStatusChanges>
+            <Component_Session_NumPendingResourceManagerQueryRunnings>0</Component_Session_NumPendingResourceManagerQueryRunnings>
+            <Component_Session_NumPendingTransactions>0</Component_Session_NumPendingTransactions>
+            <IsActive>Inactive</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_Priority>High</Policy_Priority>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </SmartCardData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </SmartCardDataProvider>
+    <USBDevicesDataProvider>
+      <ServiceName>CitrixUSB</ServiceName>
+      <EventLogName>Citrix-USB-Service/Admin</EventLogName>
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>USB Devices</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Unknown</Active>
+      <LastUpdated>2016-03-31T22:27:20.8948380+08:00</LastUpdated>
+      <Records>
+        <USBDataRecord>
+          <ClassName>Win32_USBControllerDevice</ClassName>
+          <SessionID>0</SessionID>
+          <SessionKey />
+          <Supported>False</Supported>
+          <LastError />
+          <WMI>
+            <AccessState />
+            <Antecedent>\\DCNDS0005337\root\cimv2:Win32_USBController.DeviceID="ROOT\\USB\\0001"</Antecedent>
+            <Dependent>\\DCNDS0005337\root\cimv2:Win32_PnPEntity.DeviceID="ICAUSBB\\BUS\\1&amp;2728EF4&amp;2&amp;0"</Dependent>
+            <NegotiatedDataWidth />
+            <NegotiatedSpeed />
+            <NumberOfHardResets />
+            <NumberOfSoftResets />
+          </WMI>
+        </USBDataRecord>
+        <USBDataRecord>
+          <ClassName>Win32_USBController</ClassName>
+          <SessionID>0</SessionID>
+          <SessionKey />
+          <Supported>False</Supported>
+          <LastError />
+          <WMI>
+            <Availability />
+            <Caption>Citrix remote USB host controller</Caption>
+            <ConfigManagerErrorCode>0</ConfigManagerErrorCode>
+            <ConfigManagerUserConfig>False</ConfigManagerUserConfig>
+            <CreationClassName>Win32_USBController</CreationClassName>
+            <Description>Citrix remote USB host controller</Description>
+            <DeviceID>ROOT\USB\0001</DeviceID>
+            <ErrorCleared />
+            <ErrorDescription />
+            <InstallDate />
+            <LastErrorCode />
+            <Manufacturer>Citrix Systems Inc.</Manufacturer>
+            <MaxNumberControlled />
+            <Name>Citrix remote USB host controller</Name>
+            <PNPDeviceID>ROOT\USB\0001</PNPDeviceID>
+            <PowerManagementCapabilities />
+            <PowerManagementSupported />
+            <ProtocolSupported>16</ProtocolSupported>
+            <Status>OK</Status>
+            <StatusInfo />
+            <SystemCreationClassName>Win32_ComputerSystem</SystemCreationClassName>
+            <SystemName>DCNDS0005337</SystemName>
+            <TimeOfLastReset />
+          </WMI>
+        </USBDataRecord>
+        <USBDataRecord>
+          <ClassName>Citrix_VirtualChannel_USB_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>Medium</Component_ActualPriority>
+            <Event_Created>20160331021119.899698+480</Event_Created>
+            <Event_ID>257</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>The Citrix Device Redirector Service has started.</Event_Message>
+            <IsActive>Unknown</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <MappedUSBs />
+            <Policy_AllowPNPRedirection>False</Policy_AllowPNPRedirection>
+            <Policy_AllowUSBSupport>False</Policy_AllowUSBSupport>
+            <Policy_Priority>Medium</Policy_Priority>
+            <Policy_RedirectionRules>DENY: VID=0E0F PID=0003 # VMWare Virtual mouse;DENY: VID=1926 PID=1843 # Lenovo AIO Touch;DENY: VID=1926 PID=0DBD # HP Touch;DENY: VID=056A # Wacom devices;DENY: vid=17e9 # All DisplayLink USB displays;DENY: class=02 # Communications and CDC-Control;DENY: class=06 # Scanners and Digital Cameras;DENY: class=08 # Mass Storage;DENY: class=09 # Hub devices;DENY: class=0a # CDC-Data;DENY: class=0b # Smartcard;DENY: class=e0 # Wireless controller;DENY: VID=0FCA # All Blackberry;DENY: VID=0421 # All Nokia;DENY: class=06 subclass=01 # All Windows 8 phones and iPhone;ALLOW: # Otherwise allow everything else</Policy_RedirectionRules>
+            <ServiceStatus>Running</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </USBDataRecord>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </USBDevicesDataProvider>
+    <CDMDataProvider>
+      <ServiceName />
+      <EventLogName />
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Mapped Client Drives</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>False</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Inactive</Active>
+      <LastUpdated>2016-03-31T22:27:25.7683253+08:00</LastUpdated>
+      <Records>
+        <CDMData>
+          <ClassName>Citrix_VirtualChannel_CDM_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError>CTXCDM  virtual bound failed: 1</LastError>
+          <WMI>
+            <Component_ActualPriority>Invalid</Component_ActualPriority>
+            <Component_DriveID>0</Component_DriveID>
+            <Component_DriveType>Unknown</Component_DriveType>
+            <Component_IsValid>False</Component_IsValid>
+            <Component_NameOnClient />
+            <Component_VolumeLabel />
+            <IsActive>Inactive</IsActive>
+            <IsEnabled>False</IsEnabled>
+            <IsPresent>False</IsPresent>
+            <LastError>CTXCDM  virtual bound failed: 1</LastError>
+            <Policy_AllowCdromDrives>False</Policy_AllowCdromDrives>
+            <Policy_AllowDriveRedir>False</Policy_AllowDriveRedir>
+            <Policy_AllowFixedDrives>False</Policy_AllowFixedDrives>
+            <Policy_AllowFloppyDrives>False</Policy_AllowFloppyDrives>
+            <Policy_AllowNetworkDrives>False</Policy_AllowNetworkDrives>
+            <Policy_AllowRemoveableDrives>False</Policy_AllowRemoveableDrives>
+            <Policy_AutoConnectDrives>False</Policy_AutoConnectDrives>
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>Medium</Policy_Priority>
+            <Policy_ReadOnlyMappedDrive>True</Policy_ReadOnlyMappedDrive>
+            <Policy_UseAsyncWrites>False</Policy_UseAsyncWrites>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Settings_CacheFlags>0</Settings_CacheFlags>
+            <Settings_CacheSize>1024</Settings_CacheSize>
+            <Settings_CacheTimeout>60</Settings_CacheTimeout>
+            <Settings_ClientPrinterDisableMappingAtLogon>False</Settings_ClientPrinterDisableMappingAtLogon>
+            <Settings_DirCacheTimeout>30</Settings_DirCacheTimeout>
+            <Settings_DisableAsyncRead>False</Settings_DisableAsyncRead>
+            <Settings_DisableAsyncWrite>False</Settings_DisableAsyncWrite>
+            <Settings_ExecuteFromMappedDrive>False</Settings_ExecuteFromMappedDrive>
+            <Settings_MaxNetCmds>16</Settings_MaxNetCmds>
+            <Settings_PreferClientFloppy>False</Settings_PreferClientFloppy>
+            <Settings_RemovableCacheTimeout>10</Settings_RemovableCacheTimeout>
+            <Settings_RequestTimeout>60</Settings_RequestTimeout>
+            <Supported>True</Supported>
+          </WMI>
+        </CDMData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </CDMDataProvider>
+    <WindowsMediaDataProvider>
+      <ServiceName />
+      <EventLogName>Citrix-Multimedia-RAVE/Admin</EventLogName>
+      <IsVirtualChannel>True</IsVirtualChannel>
+      <Name>Windows Media</Name>
+      <Loaded>True</Loaded>
+      <Supported>True</Supported>
+      <Enabled>True</Enabled>
+      <UserEnabled>True</UserEnabled>
+      <Active>Active</Active>
+      <LastUpdated>2016-03-31T22:27:25.8013286+08:00</LastUpdated>
+      <Records>
+        <WindowsMediaData>
+          <ClassName>Citrix_VirtualChannel_Mediastream_Enum</ClassName>
+          <SessionID>1</SessionID>
+          <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+          <Supported>True</Supported>
+          <LastError />
+          <WMI>
+            <Component_ActualPriority>Medium</Component_ActualPriority>
+            <Component_BytesSent>0</Component_BytesSent>
+            <Component_Connected>True</Component_Connected>
+            <Component_ContextID>0</Component_ContextID>
+            <Component_FlowControlVersion>Legacy</Component_FlowControlVersion>
+            <Component_OriginalAllocBufSize>202752</Component_OriginalAllocBufSize>
+            <Component_OriginalAllocCBuffers>10</Component_OriginalAllocCBuffers>
+            <Component_OriginalCompressionLevel>Good</Component_OriginalCompressionLevel>
+            <Component_OriginalFixedSizeSamples>False</Component_OriginalFixedSizeSamples>
+            <Component_OriginalFormat>e06d80e3-db46-11cf-b4d1-00805f6cbbea</Component_OriginalFormat>
+            <Component_OriginalFormatBlock>System.Byte[]</Component_OriginalFormatBlock>
+            <Component_OriginalFormatBlockLength>756</Component_OriginalFormatBlockLength>
+            <Component_OriginalMajorType>73646976-0000-0010-8000-00aa00389b71</Component_OriginalMajorType>
+            <Component_OriginalSampleByteCount>101376</Component_OriginalSampleByteCount>
+            <Component_OriginalSubType>34363248-0000-0010-8000-00aa00389b71</Component_OriginalSubType>
+            <Component_OriginalTemporalCompression>True</Component_OriginalTemporalCompression>
+            <Component_ProcessID>5752</Component_ProcessID>
+            <Component_SamplesAckd>0</Component_SamplesAckd>
+            <Component_SamplesSent>0</Component_SamplesSent>
+            <Component_StreamID>1</Component_StreamID>
+            <Component_StreamState>Playing</Component_StreamState>
+            <Component_StreamType>Capture</Component_StreamType>
+            <Component_TransformApplied>1</Component_TransformApplied>
+            <Component_TransformedAllocBufSize>405504</Component_TransformedAllocBufSize>
+            <Component_TransformedAllocCBuffers>5</Component_TransformedAllocCBuffers>
+            <Component_TransformedCompressionLevel>None</Component_TransformedCompressionLevel>
+            <Component_TransformedFixedSizeSamples>True</Component_TransformedFixedSizeSamples>
+            <Component_TransformedFormat>00000000-0000-0000-0000-000000000000</Component_TransformedFormat>
+            <Component_TransformedFormatBlock>System.Byte[]</Component_TransformedFormatBlock>
+            <Component_TransformedFormatBlockLength>88</Component_TransformedFormatBlockLength>
+            <Component_TransformedMajorType>73646976-0000-0010-8000-00aa00389b71</Component_TransformedMajorType>
+            <Component_TransformedSampleByteCount>152064</Component_TransformedSampleByteCount>
+            <Component_TransformedSubType>30323449-0000-0010-8000-00aa00389b71</Component_TransformedSubType>
+            <Component_TransformedTemporalCompression>False</Component_TransformedTemporalCompression>
+            <Component_TweaksApplied>0</Component_TweaksApplied>
+            <Event_Created>20160330145136.585411+480</Event_Created>
+            <Event_ID>8003</Event_ID>
+            <Event_Level>Information</Event_Level>
+            <Event_Message>HDX Mediastream is used for redirecting media stream.</Event_Message>
+            <IsActive>Active</IsActive>
+            <IsEnabled>True</IsEnabled>
+            <IsPresent>True</IsPresent>
+            <LastError />
+            <Policy_LimitBw>0</Policy_LimitBw>
+            <Policy_LimitBwPercent>0</Policy_LimitBwPercent>
+            <Policy_Priority>Medium</Policy_Priority>
+            <Policy_RAVEBufferSize>5</Policy_RAVEBufferSize>
+            <Registry_MinimumBandWidth>131072</Registry_MinimumBandWidth>
+            <ServiceStatus>0</ServiceStatus>
+            <SessionID>1</SessionID>
+            <SessionKey>80ef6db5-7cc2-4b32-9891-9e1c186a2148</SessionKey>
+            <Supported>True</Supported>
+          </WMI>
+        </WindowsMediaData>
+      </Records>
+      <Counters>
+        <Session1>
+          <Input />
+          <Output />
+        </Session1>
+      </Counters>
+    </WindowsMediaDataProvider>
+  </Providers>
+</ProviderSerializeContainer>

@@ -1,0 +1,19 @@
+.chart {
+    margin-top: 2px;
+    border: 2px solid #D0D0D0;
+}
+
+.layer-container {
+    margin: 1px;
+    float: left;
+    width: 40px;
+    height: 100px;
+    position: relative
+}
+
+.layer {
+    width: 40px;
+    background: blue;
+    position: absolute;
+    bottom: 0
+}

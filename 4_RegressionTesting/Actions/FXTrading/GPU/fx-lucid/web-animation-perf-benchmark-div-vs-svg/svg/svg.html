@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>D3 DIV vs SVG vs CANVAS</title>
+    <script src="../js/d3.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+<div class="container-fluid">
+    <div>
+        <a href="../canvas/canvas.html">CANVAS</a>
+        <a href="svg.html">SVG</a>
+        <a href="../div/div.html">DIV</a>
+    </div>
+    <!--<div class="row chart">-->
+        <!--<svg width="40" height="100" style="float: left; margin: 1px">-->
+            <!--<rect width="40" height="75" style="fill:rgb(0,0,255)" y="25"/>-->
+        <!--</svg>-->
+        <!--<svg width="40" height="100" style="float: left; margin: 1px">-->
+            <!--<rect width="40" height="55" style="fill:rgb(0,0,255)" y="45"/>-->
+        <!--</svg>-->
+        <!--<svg width="40" height="100" style="float: left; margin: 1px">-->
+            <!--<rect width="40" height="25" style="fill:rgb(0,0,255)" y="75"/>-->
+        <!--</svg>-->
+        <!--<svg width="40" height="100" style="float: left; margin: 1px">-->
+            <!--<rect width="40" height="20" style="fill:rgb(0,0,255)" y="80"/>-->
+        <!--</svg>-->
+        <!--<svg width="40" height="100" style="float: left; margin: 1px">-->
+            <!--<rect width="40" height="90" style="fill:rgb(0,0,255)" y="10"/>-->
+        <!--</svg>-->
+    <!--</div>-->
+    <!--<div class="row chart-opt">-->
+        <!--<svg class="chart" height="200">-->
+            <!--<g transform="translate(1,25)">-->
+                <!--<rect width="40" height="75" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(43,45)">-->
+                <!--<rect width="40" height="55" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(85,75)">-->
+                <!--<rect width="40" height="25" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(127,80)">-->
+                <!--<rect width="40" height="20" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(169,10)">-->
+                <!--<rect width="40" height="90" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(1,125)">-->
+                <!--<rect width="40" height="75" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(43,145)">-->
+                <!--<rect width="40" height="55" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(85,175)">-->
+                <!--<rect width="40" height="25" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(127,180)">-->
+                <!--<rect width="40" height="20" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+            <!--<g transform="translate(169,110)">-->
+                <!--<rect width="40" height="90" style="fill:rgb(0,0,255)"></rect>-->
+            <!--</g>-->
+        <!--</svg>-->
+    <!--</div>-->
+    <div class="row chart-opt">
+        <svg class="chart chart-auto">
+        </svg>
+    </div>
+</div>
+
+</body>
+<script src="svg.js"></script>
+</html>

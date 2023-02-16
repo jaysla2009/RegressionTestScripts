@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<NDSPerformanceTest>
+
+    <!-- In Sendkeys Action, $p0 is iteration num of sending the same key, $p1 is millisecond timeout between each iteration, $p2 is the keyborad key to be entered -->
+    <!-- In MoveWindows Action, $p0 is process name of targeted windows, $p1 is second timeout, $p2 is the button name, $p3 is X end position, $p4 is Y end position -->
+    <ActionTypes>
+
+        <ActionType Name="Script"     ParamNum="1">Invoke-Expression $p0</ActionType>
+        <ActionType Name="Invoke"     ParamNum="1">Invoke-AU3Run -Program $p0</ActionType>
+        <ActionType Name="ShowActive" ParamNum="1">Show-AU3WinActivate -Title $p0</ActionType>
+        <ActionType Name="Activate"   ParamNum="2">Wait-AU3WinActive   -Title $p0 -Timeout $p1</ActionType>
+        <ActionType Name="StartSleep" ParamNum="1">Start-Sleep -s $p0</ActionType>
+        <ActionType Name="StartProc"  ParamNum="1">Start-Process  $p0</ActionType>
+        <ActionType Name="StopProc"   ParamNum="1">Stop-Process -Name $p0 -Force</ActionType>
+        <ActionType Name="Sendkey"    ParamNum="2">Send-AU3Key -Title $p0 -Key $p1</ActionType>  
+        <ActionType Name="MoveWins"   ParamNum="5">MoveWindows $p0 $p1 $p2 $p3 $p4</ActionType>
+		<ActionType Name="Sendkeys"   ParamNum="4">Send-AU3Keys -Title $p0 $p1 $p2 $p3</ActionType>  
+           
+		   
+    </ActionTypes>
+	
+	<DisplayModes>
+	
+		<DisplayMode Name="DCR" 					 NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_d3d" 		Properties="IsActive,Policy_AeroRedirection" 	Value="">($IsActive -eq "Active") -and ($Policy_AeroRedirection -eq "True")</DisplayMode>
+		<DisplayMode Name="H.264" 					 NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_thinwire" Properties="IsActive,Component_Encoder" 	 	Value="">($IsActive -eq "Active") -and ($Component_Encoder -eq "DeepCompressionV2Encoder")</DisplayMode>
+		<DisplayMode Name="H.264 Compatibility Mode" NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_thinwire" Properties="IsActive,Component_Encoder" 	 	Value="">($IsActive -eq "Active") -and ($Component_Encoder -eq "CompatibilityEncoder")</DisplayMode>
+		<DisplayMode Name="Legacy Graphics" 		 NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_graphics" Properties="IsActive,Policy_LegacyGraphicsMode" Value="">($IsActive -eq "Active") -and ($Policy_LegacyGraphicsMode -eq "True")</DisplayMode>
+		<DisplayMode Name="Thinwire" 				 NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_thinwire" Properties="IsActive, Component_VideoCodecUse"  Value="">($IsActive -eq "Active") -and ($Component_VideoCodecUse -eq "For actively changing regions")</DisplayMode> 
+		<DisplayMode Name="Thinwire Advanced" NameSpace="ROOT\citrix\hdx" Class="citrix_virtualchannel_thinwire" Properties="IsActive, Policy_UseVideoCodec" Value="">($IsActive -eq "Active") -and ($Policy_UseVideoCodec -eq "UseVideoCodecIfPreferred")</DisplayMode>
+
+		
+	</DisplayModes>
+
+    <TestSuite IsRun="True" Name="Bandwidth" Sensors="System,Protocol,Graphics,UX" Protocol="ICA">
+	
+	    <TestCase Name="FXTrading Native" IsRun="True" Condition="Test-Path '$LocalDir\Actions\FXTrading\GPU\fx-lucid\native-wpf-perf-benchmark\LucidWPF.exe'">
+            <Action Type="Invoke">$LocalDir\Actions\FXTrading\GPU\fx-lucid\native-wpf-perf-benchmark\LucidWPF.exe</Action>
+            <Action Type="Activate" Split="$">MainWindow $ 5</Action>
+            <Action Type="StartSleep">25</Action>
+            <Action Type="StopProc">LucidWPF</Action>
+			<Action Type="StartSleep">15</Action>
+        </TestCase>
+
+	<TestCase Name="FXTrading DIV" IsRun="True" Condition="Test-Path '$LocalDir\Actions\FXTrading\GPU\fx-lucid\web-animation-perf-benchmark-div-vs-svg\bin\Local_launch_div_test_noGPU.cmd'">
+            <Action Type="Invoke">$LocalDir\Actions\FXTrading\GPU\fx-lucid\web-animation-perf-benchmark-div-vs-svg\bin\Local_launch_div_test_noGPU.cmd</Action>
+            <Action Type="StartSleep">30</Action>
+            <Action Type="StopProc">Chrome</Action>
+            <Action Type="StartSleep">15</Action>
+        </TestCase>
+		
+		<TestCase Name="FXTrading SVG" IsRun="True" Condition="Test-Path '$LocalDir\Actions\FXTrading\GPU\fx-lucid\web-animation-perf-benchmark-div-vs-svg\bin\Local_launch_svg_test_noGPU.cmd'">
+            <Action Type="Invoke">$LocalDir\Actions\FXTrading\GPU\fx-lucid\web-animation-perf-benchmark-div-vs-svg\bin\Local_launch_svg_test_noGPU.cmd</Action>
+            <Action Type="StartSleep">30</Action>
+            <Action Type="StopProc">Chrome</Action>
+            <Action Type="StartSleep">15</Action>
+        </TestCase>
+		<TestCase Name="GDI TEST" IsRun="True" Condition="Test-Path '$LocalDir\Actions\WPF\GDI.CMD'">
+            <Action Type="Invoke">$LocalDir\Actions\WPF\GDI.CMD</Action>
+            <Action Type="StartSleep">30</Action>
+            <Action Type="StopProc">GDIDraw_grid</Action>
+            <Action Type="StartSleep">15</Action>			
+        </TestCase>
+
+		<TestCase Name="WPF TEST" IsRun="True" Condition="Test-Path '$LocalDir\Actions\WPF\WPF.CMD'">
+            <Action Type="Invoke">$LocalDir\Actions\WPF\WPF.cmd</Action>
+            <Action Type="StartSleep">30</Action>
+            <Action Type="StopProc">GDIDrawWPF_grid</Action>
+            <Action Type="StartSleep">15</Action>			
+        </TestCase>
+	
+		<TestCase Name="Word Typing" IsRun="True" Condition="Test-Path '$LocalDir\Actions\Word\WordTypingWin10.docx'">
+            <Action Type="StartProc">$LocalDir\Actions\Word\WordTypingWin10.docx</Action>
+            <Action Type="StartSleep">15</Action>
+            <Action Type="Activate" Split="$">WordTypingWin10 $ 10</Action>
+            <Action Type="ShowActive">WordTypingWin10</Action>
+			<Action Type="Sendkeys" Split="$">WordTypingWin10 $ 200 $ 50 $ A</Action>
+            <Action Type="StopProc">Winword</Action>
+            <Action Type="StartSleep">15</Action>
+        </TestCase>
+		
+	    <TestCase Name="Word Scrolling" IsRun="True" Condition="Test-Path '$LocalDir\Actions\Word\WordScrollingWin10.docx'">
+            <Action Type="StartProc">$LocalDir\Actions\Word\WordScrollingWin10.docx</Action>
+            <Action Type="StartSleep">15</Action>
+            <Action Type="Activate" Split="$">WordScrollingWin10 $ 10</Action>
+            <Action Type="ShowActive">WordScrollingWin10</Action>
+			<Action Type="Sendkeys" Split="$">WordScrollingWin10 $ 120 $ 500 $ {PGDN}</Action>
+            <Action Type="StopProc">Winword</Action>
+            <Action Type="StartSleep">15</Action>
+        </TestCase>			
+
+        <TestCase Name="AdobeReader Scrolling" IsRun="True" Condition="Test-Path '$LocalDir\Files\Test_AdobeReader.pdf'">
+            <Action Type="StartProc">$LocalDir\Files\Test_AdobeReader.pdf</Action>
+            <Action Type="StartSleep">15</Action>
+            <Action Type="Activate" Split="$">Test_AdobeReader $ 10</Action>
+            <Action Type="ShowActive">Test_AdobeReader</Action>
+			<Action Type="Sendkeys" Split="$">Test_AdobeReader $ 20 $ 500 $ {PGDN}</Action>
+			<Action Type="Sendkeys" Split="$">Test_AdobeReader $ 20 $ 250 $ {PGDN}</Action>
+			<Action Type="Sendkeys" Split="$">Test_AdobeReader $ 20 $ 125 $ {PGDN}</Action>
+			<Action Type="StartSleep">5</Action>
+            <Action Type="StopProc">AcroRd32</Action>
+            <Action Type="StartSleep">15</Action>			
+        </TestCase>
+
+        <TestCase Name="PowerPointSlideshow" IsRun="True" Condition="Test-Path '$LocalDir\Actions\PowerPoint\PowerPointSlideShow.pptx'">
+            <Action Type="StartProc">$LocalDir\Actions\PowerPoint\PowerPointSlideShow.pptx</Action>
+            <Action Type="StartSleep">10</Action>
+            <Action Type="Activate" Split="$">PowerPointSlideShow $ 10</Action>
+            <Action Type="ShowActive">PowerPointSlideShow</Action>
+			<Action Type="Sendkey" Split="$">PowerPointSlideShow $ {F5}</Action>
+			<Action Type="Sendkeys" Split="$">PowerPointSlideShow $ 25 $ 5000 $ {PGDN}</Action>
+			<Action Type="Sendkey" Split="$">PowerPointSlideShow $ {ESC}</Action>
+			<Action Type="StartSleep">10</Action>
+            <Action Type="StopProc">PowerPnt</Action>
+            <Action Type="StartSleep">15</Action>			
+        </TestCase>	
+		
+        <TestCase Name="MP4" IsRun="True" Condition="Test-Path '$LocalDir\Videos\Test_MP4.mp4'">
+            <Action Type="Script">&amp;"$LocalDir\Videos\Test_MP4.mp4"</Action>
+            <Action Type="StartSleep">25</Action>
+            <Action Type="StopProc">wmplayer</Action>
+			<Action Type="StartSleep">15</Action>
+        </TestCase>
+
+        <TestCase Name="WMV" IsRun="True" Condition="Test-Path '$LocalDir\Videos\Test_WMV.wmv'">
+            <Action Type="StartSleep">5</Action>
+            <Action Type="Script">&amp;"$LocalDir\Videos\Test_WMV.wmv"</Action>
+            <Action Type="StartSleep">20</Action>
+            <Action Type="StopProc">wmplayer</Action>
+			<Action Type="StartSleep">15</Action>
+        </TestCase>
+		
+	<TestCase Name="Flash" IsRun="True" Condition="Test-Path '$LocalDir\Videos\Test_Flash.html'">
+            <Action Type="StartSleep">1</Action>
+            <Action Type="Script">if ((Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64-bit") {&amp;"${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe" "--start-maximized --disable-session-crashed-bubble" "$LocalDir\Videos\Test_Flash.html"} else {&amp;"$env:ProgramFiles\Google\Chrome\Application\chrome.exe" "--start-maximized --disable-session-crashed-bubble" "$LocalDir\Videos\Test_Flash.html"}</Action>
+            <Action Type="StartSleep">120</Action>
+            <Action Type="StopProc">chrome</Action>
+	    <Action Type="StartSleep">30</Action>			
+        </TestCase>
+
+        <TestCase Name="MP3" IsRun="True" Condition="Test-Path '$LocalDir\Videos\Test_MP3.mp3'">
+            <Action Type="StartSleep">5</Action>
+            <Action Type="Script">&amp;"$LocalDir\Videos\Test_MP3.mp3"</Action>
+            <Action Type="StartSleep">70</Action>
+            <Action Type="StopProc">wmplayer</Action>
+			<Action Type="StartSleep">15</Action>			
+		</TestCase>
+
+	<TestCase Name="Videos" IsRun="False" Condition="Test-Path '$LocalDir\Videos\testing_portal.html'">
+            <Action Type="StartSleep">1</Action>
+            <Action Type="Script">if ((Get-WmiObject Win32_OperatingSystem).OSArchitecture -eq "64-bit") {&amp;"${env:ProgramFiles(x86)}\Google\Chrome\Application\chrome.exe" "--start-maximized --disable-session-crashed-bubble" "$LocalDir\Videos\testing_portal.html"} else {&amp;"$env:ProgramFiles\Google\Chrome\Application\chrome.exe" "--start-maximized --disable-session-crashed-bubble" "$LocalDir\Videos\testing_portal.html"}</Action>
+            <Action Type="StartSleep">1800</Action>
+            <Action Type="StopProc">chrome</Action>
+	    <Action Type="StartSleep">30</Action>			
+        </TestCase>
+    </TestSuite>
+
+        
+	<Sensors>
+     <PerformanceCounters Name="System" Type="System" Sensor="Perfmon" Path="$LocalDir\Reports">
+        <Counter>\Network Interface(*)\Current Bandwidth</Counter>
+        <Counter>\Network Interface(*)\Bytes Total/sec</Counter>
+        <Counter>\Network Interface(*)\Bytes Received/sec</Counter>
+        <Counter>\Network Interface(*)\Bytes Sent/sec</Counter>
+        <Counter>\Network Interface(*)\Output Queue Length</Counter>
+        <Counter>\Memory\Available Bytes</Counter>
+        <Counter>\Memory\Committed Bytes</Counter>
+        <Counter>\Memory\Commit Limit</Counter>
+        <Counter>\Memory\% Committed Bytes In Use</Counter>
+        <Counter>\Memory\Page Faults/sec</Counter>
+        <Counter>\Memory\Pages/sec</Counter>
+        <Counter>\Memory\Page Reads/sec</Counter>
+        <Counter>\Memory\Page Writes/sec</Counter>
+        <Counter>\Memory\Pool Paged Bytes</Counter>
+        <Counter>\Memory\Pool Nonpaged Bytes</Counter>
+        <Counter>\Processor(_Total)\% Privileged Time</Counter>
+        <Counter>\Processor(_Total)\% Processor Time</Counter>
+        <Counter>\Processor(_Total)\% User Time</Counter>
+      </PerformanceCounters>
+	  <PerformanceCounters Name="ICA" Type="Protocol" Sensor="Perfmon" Path="$LocalDir\Reports">
+        <Counter>\ICA Session(*)\Latency - Last Recorded</Counter>
+        <Counter>\ICA Session(*)\Latency - Session Average</Counter>
+        <Counter>\ICA Session(*)\Latency - Session Deviation</Counter>
+        <Counter>\ICA Session(*)\Output Session Bandwidth</Counter>
+        <Counter>\ICA Session(*)\Input Session Bandwidth</Counter>
+        <Counter>\ICA Session(*)\Output Session Compression</Counter>
+        <Counter>\ICA Session(*)\Input Session Compression</Counter>
+        <Counter>\ICA Session(*)\Output Session Line Speed</Counter>
+        <Counter>\ICA Session(*)\Input Session Line Speed</Counter>	
+		<Counter>\ICA Session(*)\Output ThinWire Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output SpeedScreen Multimedia Acceleration Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output SpeedScreen Data Channel Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Output LPT 1 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Input LPT 1 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Output LPT 2 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Input LPT 2 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Input Session Line Speed</Counter>	
+		<Counter>\ICA Session(*)\Output COM 1 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Input COM 1 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Output COM 2 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Input COM 2 Bandwidth</Counter>	
+		<Counter>\ICA Session(*)\Output Printer Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Printer Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output COM Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input COM Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output Drive Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Drive Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output Clipboard Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Clipboard Bandwidt</Counter>
+		<Counter>\ICA Session(*)\Output ThinWire Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input ThinWire Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output Audio Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Audio Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output Control Channel Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Control Channel Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output SpeedScreen Data Channel Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input SpeedScreen Data Channel Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output USB Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input USB Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output SpeedScreen Multimedia Acceleration Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input SpeedScreen Multimedia Acceleration Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output Smart Card Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input Smart Card Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output HDX MediaStream for Flash Data Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input HDX MediaStream for Flash Data Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output HDX MediaStream for Flash v2 Data Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input HDX MediaStream for Flash v2 Data Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Output TWAIN Bandwidth</Counter>
+		<Counter>\ICA Session(*)\Input TWAIN Bandwidth</Counter>
+      </PerformanceCounters> 
+	  <PerformanceCounters Name="FPS" Type="Graphics" Sensor="WMI" Path="$LocalDir\Reports">
+	    <Counter Name="Legacy Graphics" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_Graphics_Enum">Component_CurrentFramesPerSecond</Counter>
+		<Counter Name="H.264" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_Thinwire_Enum">Component_fps</Counter>
+		<Counter Name="H.264 Compatibility Mode" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_Thinwire_Enum">Component_fps</Counter>	
+		<Counter Name="Thinwire" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_Thinwire_Enum">Component_Fps</Counter>			
+		<Counter Name="DCR" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_D3D_Enum">Component_fps</Counter>		
+		<Counter Name="Thinwire Advanced" NameSpace="root\Citrix\hdx" Class="Citrix_VirtualChannel_Thinwire_Enum">Component_Fps</Counter>
+	  </PerformanceCounters>
+	  <PerformanceCounters Name="ICARTT" Type="UX" Sensor="WMI" Path="$LocalDir\Reports">
+	    <Counter Name="All" NameSpace="root\Citrix\euem" Class="citrix_euem_RoundTrip">RoundtripTime</Counter>
+	  </PerformanceCounters>	  
+	</Sensors>
+	
+</NDSPerformanceTest>
